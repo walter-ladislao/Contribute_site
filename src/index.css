@@ -1,3 +1,26 @@
+:root{
+  --body_background: linear-gradient(to  bottom, #B6FFFF, #FAF0E6);
+  --body_color: #FAF0E6;
+  --link_color: navy;
+  --text_shadow: rgba(0, 0, 0, 0.5);
+  --home_col_back: #086e79;
+}
+[data-theme="dark"]{
+  --body_background: linear-gradient(to  top, #010507, #02090C, #020F13, #021719, #021E1C);
+  --body_color: #FAF0E6;
+  --link_color: red;
+  --text_shadow: rgba(255, 255, 255, 0.5);
+  --home_col_back: #032e2d;
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+.myLinks{
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

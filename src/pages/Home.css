@@ -1,0 +1,39 @@
+.tu{
+    font-size: 100px;
+}
+
+.col1Home{
+    background-color: var(--home_col_back);
+    /* Assicurati di sostituire 'percorso_dell_immagine' con il percorso dell'immagine che desideri utilizzare */
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 0px 0px 20px;
+    background-clip: padding-box;
+    }
+
+.col2Home{
+    background-image: linear-gradient(to left, rgba(255,255,255,0) 0%, var(--home_col_back) 100%), url('./family.jpg');
+    /* Assicurati di sostituire 'percorso_dell_immagine' con il percorso dell'immagine che desideri utilizzare */
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 20px 20px 0px;
+    background-clip: padding-box;
+}
+
+.b-rounded{
+    border-radius: 20px 20px 20px 20px;
+}
+
+/* .myBg1{
+    background-image: linear-gradient(to  top, #010507, #02090C, #020F13, #021719, #021E1C);
+} */
+.text-shadowing{
+    text-shadow: 1px 1px 4px var(--text_shadow);
+}
+
+@media screen and (max-width: 768px) {
+    /* Le regole CSS qui verranno applicate solo quando la larghezza dello schermo è inferiore a 768px */
+    .tu{
+        font-size: 35px;
+    }
+  }
