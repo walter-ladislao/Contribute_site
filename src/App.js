@@ -28,7 +28,7 @@ function App() {
         <div className='min-vh-100'>
 
         <div className='container-fluid fixed-top'>
-          <div className='row myNav fs-3'>
+          <div className='row myNav px-2 px-md-5 fs-3'>
             <div className='col-2 d-flex justify-content-start align-items-center'>
             <Link to="/" className='myLinks unbounded-text text-light text-shadowing d-none d-lg-flex'>Home</Link>
             </div>
@@ -47,10 +47,13 @@ function App() {
               </div>
               <div className={`d-flex flex-column myDropDown  b-rounded p-3 ${classeElemento}`}>
               <div className='d-flex justify-content-end divDarkMode'><DarkMode/></div>
+              <div className='d-flex flex-column d-lg-none'>
               <Link to="/" className='myLinks text-start unbounded-text text-light text-shadowing'>Home</Link>
               <Link to="/about" className='myLinks text-start unbounded-text text-light text-shadowing'>Blog</Link>
-              <Link to="/contact" className='myLinks text-start unbounded-text text-light text-shadowing'>Promoters</Link>
-              <Link to="/donation" className='myLinks text-start unbounded-text text-light text-shadowing'>Donate</Link>
+              <Link to="/contact" className='myLinks text-start unbounded-text text-light text-shadowing'>Promoter</Link>
+              <Link to="/donation" className='myLinks text-start unbounded-text text-light text-shadowing'>Donazioni</Link>
+              </div>
+              
               
               
               

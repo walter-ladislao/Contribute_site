@@ -4,7 +4,7 @@ import React from 'react';
 function Card(props) {
     return (
         
-            <div className="col-12 col-md-5 bg-card b-rounded p-4 mb-4">
+            <div className="col-12 col-md-5 bg-sections b-rounded p-4 mb-4">
                 <div key={props.id} className='productCard d-flex flex-column'>
                     <div className='mb-2'>
                         <h2 className='productName text-light unbounded-text '>

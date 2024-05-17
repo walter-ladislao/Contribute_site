@@ -30,7 +30,7 @@
 .myDropDown{
   position: absolute;
   top: 70px;
-  right: 8px;
+  right: 30px;
   background-color: var(--home_col_back);
   box-shadow: var(--body_color) -4px 4px 8px 2px;
 }
@@ -41,9 +41,12 @@
   color: var(--body_color);
 }
 .divDarkMode{
-  border-bottom: white solid 2px;
-  padding-bottom: 1rem;
-  margin-bottom: 12px;
+  border-bottom: none;
+  
+}
+
+.blog{
+  color: var(--blog-color);
 }
 
 .white-bt-border{
@@ -203,5 +206,11 @@
     height: 200px;
     object-fit: cover;
     width: 100%;
+    }
+
+    .divDarkMode{
+      border-bottom: white solid 2px;
+      padding-bottom: 1rem;
+      margin-bottom: 12px;
     }
 }

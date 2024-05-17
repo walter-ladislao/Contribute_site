@@ -5,6 +5,7 @@
   --text_shadow: rgba(0, 0, 0, 0.5);
   --home_col_back: #086e79;
   --mini-sec-back: #032e2d81;
+  --blog-color: #086e79;
 }
 [data-theme="dark"]{
   --body_background: linear-gradient(to  top, #010507, #02090C, #020F13, #021719, #021E1C);
@@ -13,6 +14,7 @@
   --text_shadow: rgba(255, 255, 255, 0.5);
   --home_col_back: #032e2d;
   --mini-sec-back: #086e7978;
+  --blog-color:#FAF0E6 ;
 }
 
 * {
