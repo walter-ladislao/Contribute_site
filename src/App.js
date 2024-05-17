@@ -35,8 +35,8 @@ function App() {
             <div className='col-8 d-flex justify-content-evenly align-items-center'>
               
               <Link to="/about" className='myLinks unbounded-text text-light text-shadowing d-none d-lg-flex'>Blog</Link>
-              <Link to="/contact" className='myLinks unbounded-text text-light text-shadowing d-none d-lg-flex'>Promoters</Link>
-              <Link to="/donation" className='myLinks unbounded-text text-light text-shadowing d-none d-lg-flex'>Donate</Link>              
+              <Link to="/contact" className='myLinks unbounded-text text-light text-shadowing d-none d-lg-flex'>Promoter</Link>
+              <Link to="/donation" className='myLinks unbounded-text text-light text-shadowing d-none d-lg-flex'>Donazioni</Link>              
             </div>
             <div className='col-2 d-flex justify-content-end align-items-center unbounded-text text-shadowing'>
               <div>

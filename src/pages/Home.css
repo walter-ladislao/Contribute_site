@@ -19,6 +19,15 @@
     border-radius: 0px 20px 20px 0px;
     background-clip: padding-box;
 }
+.col23Home{
+    background-image: linear-gradient(to left, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 100%), url('./donna.webp');
+    /* Assicurati di sostituire 'percorso_dell_immagine' con il percorso dell'immagine che desideri utilizzare */
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 20px 20px 0px;
+    background-clip: padding-box;
+    height: 80vh;
+}
 
 .col-right{
     background-image: linear-gradient(to left, rgba(255,255,255,0) 0%, var(--home_col_back) 100%), url('./garden.jpg');

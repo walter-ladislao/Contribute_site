@@ -5,8 +5,8 @@ function Footer() {
         <div>
             <footer className='footer d-flex justify-content-center align-items-center mt-5'>
                 <div className='container h-100'>
-                    <div className='row h-100 flex-column justify-content-center align-items-center'>
-                        <div className='col-6 w-75 white-bt-border'>
+                    <div className='row h-100  justify-content-center align-items-center'>
+                        <div className='col-12 col-lg-6 w-75 white-bt-border '>
                             <div className='row'>
                                 <div className='col-3 p-4'>
                                     <span className='mylink'>
@@ -29,7 +29,7 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-6 unbounded-text text-light text-shadowing p-4'>
+                        <div className='col-12 col-lg-6 unbounded-text text-light text-shadowing p-2 pb-0'>
                         © 2024 Company, Inc Tel. +123456789 Via Roma
                         </div>
                     </div>        
