@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contacts from "./pages/Contacts";
 import Donation from "./pages/Donation";
 import DarkMode from "./components/DarkMode/DarkMode";
+import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
@@ -21,16 +22,21 @@ function App() {
     <>
     <div className="App">
       
-      <header className="App-header">       
+
+        
         <BrowserRouter>
-        <div className='container-fluid '>
-          <div className='row myNav'>
-            <div className='col-2 '></div>
+        <div className='min-vh-100'>
+
+        <div className='container-fluid fixed-top'>
+          <div className='row myNav fs-3'>
+            <div className='col-2 d-flex justify-content-start align-items-center'>
+            <Link to="/" className='myLinks unbounded-text text-light text-shadowing d-none d-lg-flex'>Home</Link>
+            </div>
             <div className='col-8 d-flex justify-content-evenly align-items-center'>
-              <Link to="/" className='myLinks unbounded-text text-light text-shadowing'>Home</Link>
-              <Link to="/about" className='myLinks unbounded-text text-light text-shadowing'>Blog</Link>
-              <Link to="/contact" className='myLinks unbounded-text text-light text-shadowing'>Promoters</Link>
-              <Link to="/donation" className='myLinks unbounded-text text-light text-shadowing'>Donate</Link>              
+              
+              <Link to="/about" className='myLinks unbounded-text text-light text-shadowing d-none d-lg-flex'>Blog</Link>
+              <Link to="/contact" className='myLinks unbounded-text text-light text-shadowing d-none d-lg-flex'>Promoters</Link>
+              <Link to="/donation" className='myLinks unbounded-text text-light text-shadowing d-none d-lg-flex'>Donate</Link>              
             </div>
             <div className='col-2 d-flex justify-content-end align-items-center unbounded-text text-shadowing'>
               <div>
@@ -56,7 +62,7 @@ function App() {
         
         
         
-        <div className='w-100 h-100 p-lg-0 p-2'>
+        <div className='w-100 p-0'>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
@@ -64,9 +70,16 @@ function App() {
           <Route path="/donation" element={<Donation/>}/>
         </Routes>
         </div>         
+        </div>
       </BrowserRouter>
-      </header>
-    </div>    
+        <Footer/>
+      </div>
+      {/* <div className='vh-100'>
+        <h1>
+          ciaone
+        </h1>
+      </div> */}
+       
     </>
   );
 }

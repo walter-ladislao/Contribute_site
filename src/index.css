@@ -4,6 +4,7 @@
   --link_color: navy;
   --text_shadow: rgba(0, 0, 0, 0.5);
   --home_col_back: #086e79;
+  --mini-sec-back: #032e2d81;
 }
 [data-theme="dark"]{
   --body_background: linear-gradient(to  top, #010507, #02090C, #020F13, #021719, #021E1C);
@@ -11,6 +12,7 @@
   --link_color: red;
   --text_shadow: rgba(255, 255, 255, 0.5);
   --home_col_back: #032e2d;
+  --mini-sec-back: #086e7978;
 }
 
 * {
@@ -28,6 +30,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: var(--body_background);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
 }
 
 code {
