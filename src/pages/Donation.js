@@ -73,7 +73,7 @@ function Donation() {
                             <button type="submit" className='myButtonAlt p-1 px-4'>Invia</button>
                         </form>
                     </div>
-                    <div className="col-12 col-md-6  col-right d-flex justify-content-center align-items-center flex-column">
+                    <div className="col-12 col-md-6 col-right d-lg-flex  justify-content-center align-items-center flex-column d-none">
                         <h2 className="text-center text-shadowing unbounded-text fs-1">Fondi Raccolti:</h2>
                         <p className='text-shadowing unbounded-text fa-1 tu'>{fondiRaccolti}€</p>
                     </div>
